@@ -30,6 +30,7 @@ HKUST2=
 LABOROTV=
 TEDXJP=
 LIBRISPEECH=
+FSC=
 MINI_LIBRISPEECH=downloads
 LIBRITTS=
 LJSPEECH=downloads
@@ -82,6 +83,7 @@ RU_OPEN_STT=downloads
 GIGASPEECH=
 NOISY_SPEECH=
 NOISY_REVERBERANT_SPEECH=
+LRS2=
 SUNDA=downloads
 
 # For only JHU environment
@@ -115,6 +117,7 @@ if [[ "$(hostname -d)" == clsp.jhu.edu ]]; then
     LABOROTV=
     TEDXJP=
     LIBRISPEECH=
+    FSC=
     MINI_LIBRISPEECH=downloads
     LIBRITTS=
     LJSPEECH=downloads
@@ -159,6 +162,7 @@ if [[ "$(hostname -d)" == clsp.jhu.edu ]]; then
     HOW2_TEXT=
     HOW2_FEATS=
     ZEROTH_KOREAN=downloads
+    LRS2=
     JAVA=
     SUNDA=
 
